@@ -73,3 +73,8 @@ footer {
   text-align: center;
   padding: 32px 0px;
 }
+
+.censored {
+  color: hsl(0deg 0% 50%);
+  text-decoration: line-through;
+}

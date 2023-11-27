@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Footer from '../components/footer';
 import './styles.css';
 
 function RootLayout({ children }) {
@@ -7,7 +7,7 @@ function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
-
+        <Footer />
       </body>
     </html>
   );
